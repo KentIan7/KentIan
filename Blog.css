@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Monteserrat', sans-serif;
+}
+/* Navigation bar */
+.N{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(4,11,33,1) 0%, rgba(15,75,16,1) 100%);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 2%;
+    font-size: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover,
+nav ul li a:active{
+    color: #020024;
+}
+/* --End of navigation bar-- */
+
+/* --Front Page-- */
+.Intro{
+    position: absolute;
+    font-family: 'Monteserrat', sans-serif;
+    color: white;
+    top: 200px;
+    right: 400px;
+}
+.Intro h1{
+    font-size: 75px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.Name{
+    color:white;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+/* --End of Front Page-- */
+
+/* --Blog Page-- */
+.Blog{
+    width: 100%;
+    height: 270vh;
+    padding: 100px 10px;
+    background: linear-gradient(190deg, rgba(4,11,33,1) 0%, rgba(15,75,16,1) 100%);
+    background-size: cover;
+    border: 5px solid black;
+}
+.Blog h4{
+    font-size: 65px;
+    position: absolute;
+    color: white;
+    right: 270px;
+    margin-top: -30px;
+}
+.Graphic {
+    position: absolute;
+    height: auto;
+    width: 600px;
+    border: 5px solid ;
+    right: 750px;
+    top: 780px;
+}
+.Graphic img{
+   max-width: 100%;
+    height: 100%;
+}
+.Graphic h4{
+    position: relative;
+    margin-top: 4px;
+    font-size: 25px;
+    width: 600px;
+    right: 0px;
+}
+.Graphic p{
+    position: relative;
+    margin-top: 4px;
+    font-size: 25px;
+    color: white;
+    width: 600px;
+}
+.Graphic2 {
+    position: absolute;
+    height: auto;
+    width: 600px;
+    border: 5px solid ;
+    right: 120px;
+    top: 1230px;
+}
+.Graphic2 img{
+   max-width: 100%;
+    height: 100%;
+}
+.Graphic2 h4{
+    position: relative;
+    margin-top: 4px;
+    font-size: 25px;
+    width: 285px;
+    left: 307px;
+}
+.Graphic2 p{
+    position: relative;
+    margin-top: 4px;
+    font-size: 25px;
+    color: white;
+    width: 300px;
+    left: 300px;
+}
+.Graphic3 {
+    position: absolute;
+    height: auto;
+    width: 600px;
+    border: 5px solid ;
+    right: 750px;
+    top: 1680px;
+}
+.Graphic3 img{
+    max-width: 100%;
+     height: 100%;
+}
+.Graphic3 h4{
+     position: relative;
+     margin-top: 4px;
+     font-size: 25px;
+     width: 600px;
+     right: 0;
+}
+.Graphic3 p{
+     position: relative;
+     margin-top: 4px;
+     font-size: 25px;
+     color: white;
+     width: 600px; 
+}
+.Graphic4 {
+    position: absolute;
+    height: auto;
+    width: 600px;
+    border: 5px solid ;
+    right: 120px;
+    top: 2200px;
+}
+.Graphic4 img{
+    max-width: 100%;
+     height: 100%;
+}
+.Graphic4 h4{
+     position: relative;
+     margin-top: 4px;
+     font-size: 25px;
+     width: 600px;
+     right: 0;
+}
+.Graphic4 p{
+     position: relative;
+     margin-top: 4px;
+     font-size: 25px;
+     color: white;
+     width: 600px; 
+}
+/* --End of Blog Page-- */
+
+/* --Footer-- */
+footer{
+    padding-top: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 46);
+}
+.bb {
+    width: 150px;
+    padding-bottom: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
